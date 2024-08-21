@@ -1,0 +1,43 @@
+.row{
+    margin-left: 2%;
+    color: #fff;  
+}
+
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll; 
+    overflow-y: hidden;      
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    max-height: 210px;
+    margin-right: 10px;
+}
+
+.smallPoster{
+    max-height: 150px;
+    margin-right: 10px;
+}
+
+.img-div{
+    cursor: pointer;  
+}
+
+.img-div:hover{
+    transform: scale(1.02);
+    transition: ease 0.1s; 
+}
+
+.youtube{
+    margin-left: 4%;
+    margin-right: 6%;
+    text-align: center;
+}
+
+
+
